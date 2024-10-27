@@ -1,50 +1,21 @@
-# React + TypeScript + Vite
+## Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Technologies:
 
-Currently, two official plugins are available:
+## React:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React is a JavaScript library developed by Facebook for building user interfaces, particularly for single-page applications. It allows developers to create reusable UI components, manage the state of applications efficiently, and render components in a way that is both declarative and efficient. React uses a virtual DOM to optimize updates and rendering, resulting in high performance and a smooth user experience. Its component-based architecture promotes reusability and maintainability of code, making it a popular choice for web development.
 
-## Expanding the ESLint configuration
+## TypeScript:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+TypeScript is an open-source programming language developed by Microsoft that builds on JavaScript by adding static type definitions. This allows developers to catch errors at compile time rather than at runtime, leading to more robust and maintainable code. TypeScript supports features such as interfaces, enums, and generics, enhancing the object-oriented programming experience. It is often used in large-scale applications and can be integrated with existing JavaScript code, making it a popular choice for many developers who want to improve the scalability and quality of their codebases while still leveraging the flexibility of JavaScript.
 
-- Configure the top-level `parserOptions` property like this:
+## Styled Components:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Styled Components is a library for React and other frameworks that allows developers to write CSS in JavaScript. It uses tagged template literals to style components, enabling a more modular and maintainable approach to styling in applications.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Axios:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Axios is a popular JavaScript library used for making HTTP requests from both the browser and Node.js environments. It is based on Promises and provides a simple and intuitive API for interacting with RESTful APIs and handling asynchronous operations. 
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+![Captura de tela de 2024-10-27 16-51-33](https://github.com/user-attachments/assets/bca7479e-998f-46bf-b381-12f0eb3bb39a)
